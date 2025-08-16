@@ -37,7 +37,7 @@ const Navigation = () => {
             onClick={() => scrollToSection('home')}
             className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent"
           >
-            DevPortfolio
+            Sameer Khan
           </button>
 
           {/* Desktop Navigation */}

@@ -35,7 +35,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-muted-foreground">your.email@example.com</p>
+                  <p className="text-muted-foreground">sameerkhan76950@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -44,7 +44,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium">Phone</p>
-                  <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                  <p className="text-muted-foreground">+91 9887461393</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -53,7 +53,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium">Location</p>
-                  <p className="text-muted-foreground">San Francisco, CA</p>
+                  <p className="text-muted-foreground">Pune, Maharashtra</p>
                 </div>
               </div>
             </div>
@@ -62,19 +62,23 @@ const Contact = () => {
               <h4 className="text-lg font-semibold mb-4">Follow Me</h4>
               <div className="flex gap-4">
                 <a 
-                  href="#" 
+                  href="https://github.com/Sameerk555" 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-3 bg-secondary hover:bg-primary/20 rounded-full transition-all duration-300 hover:scale-110"
                 >
                   <Github className="w-6 h-6" />
                 </a>
                 <a 
-                  href="#" 
+                  href="https://www.linkedin.com/in/sameerkhanjava/" 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-3 bg-secondary hover:bg-primary/20 rounded-full transition-all duration-300 hover:scale-110"
                 >
                   <Linkedin className="w-6 h-6" />
                 </a>
                 <a 
-                  href="#" 
+                  href="mailto:sameerkhan76950@gmail.com" 
                   className="p-3 bg-secondary hover:bg-primary/20 rounded-full transition-all duration-300 hover:scale-110"
                 >
                   <Mail className="w-6 h-6" />

@@ -55,13 +55,13 @@ const Hero = () => {
         
         {/* Social Links */}
         <div className="flex justify-center space-x-6 mb-12">
-          <a href="#" className="p-3 rounded-full bg-secondary/50 hover:bg-primary/20 transition-all duration-300 hover:scale-110">
+          <a href="https://github.com/Sameerk555" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-secondary/50 hover:bg-primary/20 transition-all duration-300 hover:scale-110">
             <Github className="w-6 h-6" />
           </a>
-          <a href="#" className="p-3 rounded-full bg-secondary/50 hover:bg-primary/20 transition-all duration-300 hover:scale-110">
+          <a href="https://www.linkedin.com/in/sameerkhanjava/" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-secondary/50 hover:bg-primary/20 transition-all duration-300 hover:scale-110">
             <Linkedin className="w-6 h-6" />
           </a>
-          <a href="#" className="p-3 rounded-full bg-secondary/50 hover:bg-primary/20 transition-all duration-300 hover:scale-110">
+          <a href="mailto:sameerkhan76950@gmail.com" className="p-3 rounded-full bg-secondary/50 hover:bg-primary/20 transition-all duration-300 hover:scale-110">
             <Mail className="w-6 h-6" />
           </a>
         </div>

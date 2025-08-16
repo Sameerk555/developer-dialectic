@@ -33,7 +33,7 @@ const About = () => {
             About <span className="bg-gradient-primary bg-clip-text text-transparent">Me</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Passionate Java Full Stack Developer with 5+ years of experience building 
+            Passionate Java Full Stack Developer with 2+ years of experience building 
             enterprise-grade applications. I love turning complex problems into simple, 
             beautiful, and intuitive solutions.
           </p>
@@ -44,8 +44,8 @@ const About = () => {
             <h3 className="text-2xl font-semibold mb-6">My Journey</h3>
             <p className="text-muted-foreground mb-4">
               Started my journey in software development with a Computer Science degree, 
-              specializing in Java ecosystem. Over the years, I've worked with startups 
-              and enterprise companies, delivering scalable solutions that serve millions of users.
+              specializing in Java ecosystem. Over the past 2+ years, I've worked with various 
+              companies, delivering scalable solutions and learning cutting-edge technologies.
             </p>
             <p className="text-muted-foreground mb-6">
               I'm passionate about clean code, best practices, and staying updated with 
@@ -68,7 +68,7 @@ const About = () => {
               <div className="absolute inset-4 bg-background/10 rounded-xl backdrop-blur-sm flex items-center justify-center">
                 <div className="text-center">
                   <Code className="w-16 h-16 text-primary mx-auto mb-4" />
-                  <p className="text-lg font-semibold">5+ Years</p>
+                  <p className="text-lg font-semibold">2+ Years</p>
                   <p className="text-muted-foreground">Experience</p>
                 </div>
               </div>
