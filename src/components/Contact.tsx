@@ -8,6 +8,7 @@ import { Mail, MapPin, Phone, Github, Linkedin } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
+import { supabase } from "@/integrations/supabase/client";
 
 const formSchema = z.object({
   firstName: z.string().min(2, "First name must be at least 2 characters"),
@@ -32,9 +33,23 @@ const Contact = () => {
 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     try {
-      // Simulate form submission
-      console.log("Form submitted:", values);
-      
+      // Save form submission to database
+      const { error } = await supabase
+        .from('contact_messages')
+        .insert([
+          {
+            first_name: values.firstName,
+            last_name: values.lastName,
+            email: values.email,
+            subject: values.subject,
+            message: values.message,
+          }
+        ]);
+
+      if (error) {
+        throw error;
+      }
+
       toast({
         title: "Message Sent!",
         description: "Thank you for your message. I'll get back to you soon!",
@@ -42,6 +57,7 @@ const Contact = () => {
       
       form.reset();
     } catch (error) {
+      console.error('Error submitting form:', error);
       toast({
         title: "Error",
         description: "Something went wrong. Please try again.",
